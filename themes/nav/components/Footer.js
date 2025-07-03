@@ -24,16 +24,16 @@ const Footer = ({ siteInfo }) => {
         </div>
         © {`${copyrightDate}`}
       </div>
-
-      /*  <div className='text-xs font-serif py-1'>
+ /* 
+      <div className='text-xs font-serif py-1'>
          Powered By{' '}
        <a
          href='https://github.com/tangly1024/NotionNext'
           className='underline text-gray-500 dark:text-gray-300'>
          NotionNext {siteConfig('VERSION')}
        </a>
-      </div> */
-
+      </div> 
+*/
       {siteConfig('BEI_AN') && (
         <>
           <i className='fas fa-shield-alt' />{' '}
